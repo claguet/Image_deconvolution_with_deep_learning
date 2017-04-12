@@ -1,1 +1,5 @@
 # Image_deconvolution_with_deep_learning
+Project developed within the Biomedical Imaging Group (http://bigwww.epfl.ch)
+Under the supervision of Emmanuel Soubies, Kyong Jin and Professor Michael Unser
+
+Recovering degradation, such as blurring and noise addition, occurring during microscopy image acquisition, is typically classified as inverse problem. They are classically solved by Wiener filter and deconvolution by minimizing regularized Least-Squares. Those methods have the inconve- niences of difficult hyperparameter optimization and to require some prior knowledges about the degradation model (PSF, noise, constraint, etc.). Deep learning is an emerging trend, particularly used and powerful for image classification or segmentation. The possibilities of such network have also started to be considered for questions related to inverse problems and image restoration. In this project, the potential of convolutional neural network (CNN) was explored for the purpose of reconstructing high quality microscopy images.
